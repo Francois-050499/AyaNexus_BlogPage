@@ -230,7 +230,7 @@ hero
     position: absolute;
     z-index: 1;
     width: auto;
-    height: 105%;
+    height: 130%;
 }
 
 @media screen and (max-width: 768px) {
