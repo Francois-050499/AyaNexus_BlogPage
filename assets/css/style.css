@@ -181,6 +181,14 @@ header
     .header {
         font-size: 12px;
     }
+    
+     .header-logo {
+        margin-left: 15px;
+    }
+
+    .header-nav {
+        padding-right: 15px;
+    }
 
     .header-logosize {
         width: 20%;
