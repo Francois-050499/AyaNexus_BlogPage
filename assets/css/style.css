@@ -183,8 +183,8 @@ header
     }
 
     .header-logosize {
-        width: 40%;
-        height: 40%;
+        width: 20%;
+        height: 20%;
         border-radius: 2.5px;
         box-shadow: 1.5px 1.5px 0 #bbb;
         transition: box-shadow 0.25s;
@@ -234,15 +234,12 @@ hero
 }
 
 @media screen and (max-width: 768px) {
-
-    .hero-logodesign {
+    
+    .hero > strong {
+        font-size: 50px;
         letter-spacing: 1.0px;
         color:#faf0e6;
         text-shadow: 5px 5px 1px #da70d6;
-    }
-
-    .hero > strong {
-        font-size: 50px;
     }
 }
 
@@ -287,10 +284,7 @@ about
     }
 
     .about-image {
-        max-width: 100%;
-        margin: 0 150px;
-        margin-bottom: 20px;
-        
+        max-width: 100%; 
     }
 
     .about-headline {
