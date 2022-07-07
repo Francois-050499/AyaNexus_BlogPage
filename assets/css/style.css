@@ -290,7 +290,7 @@ about
 
     .about-image {
         max-width: 100%;
-        margin-left: 25%;
+        margin: 0 150px;
         margin-bottom: 20px;
         
     }
