@@ -131,11 +131,7 @@ header
 }
 
 .header-logo {
-    margin-left: 0.5px;
-}
-
-.header-nav {
-    padding-right: 1.25px;
+    margin: 0;    
 }
 
 .header-logosize {
@@ -186,12 +182,12 @@ header
         font-size: 12px;
     }
     
-     .header-logo {
-        margin-left: 15px;
+    .header-logo {
+        margin-left: 0.5px;
     }
 
     .header-nav {
-        padding-right: 15px;
+        padding-right: 1.25px;
     }
 
     .header-logosize {
