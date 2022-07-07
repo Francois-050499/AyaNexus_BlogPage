@@ -90,10 +90,18 @@ header
         font-size: 12px;
         padding: 0;
     }
+    
+     .header-logo {
+        margin-left: 15px;
+    }
+
+    .header-nav {
+        padding-right: 15px;
+    }
 
     .header-logosize {
-        width: 10%;
-        height: 10%;
+        width: 20%;
+        height: 20%;
         border-radius: 2.5px;
         box-shadow: 1.5px 1.5px 0 #bbb;
         transition: box-shadow 0.25s;
