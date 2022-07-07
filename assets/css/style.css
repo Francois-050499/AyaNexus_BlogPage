@@ -183,8 +183,8 @@ header
     }
 
     .header-logosize {
-        width: 10%;
-        height: 10%;
+        width: 40%;
+        height: 40%;
         border-radius: 2.5px;
         box-shadow: 1.5px 1.5px 0 #bbb;
         transition: box-shadow 0.25s;
@@ -210,29 +210,27 @@ hero
     overflow: hidden;
 }
 
-.hero-logodesign {
-    letter-spacing: 1.0px;
-    color:#faf0e6;
-    text-shadow: 10px 10px 2px #da70d6;
-}
-
 .hero > strong {
     position: absolute;
     z-index: 2;
     top: 50%;
     left: 50%;
-    transform: translate(-50% -50%);
+    transform: translate(-50%, -50%);
     font-size: 120px;
     font-weight: bold;
     display: block;
+    width: 100%;
     text-align: center;
+    letter-spacing: 1.0px;
+    color:#faf0e6;
+    text-shadow: 10px 10px 2px #da70d6;
 }
 
 .hero > video {
     position: absolute;
     z-index: 1;
     width: auto;
-    height: 130%;
+    height: 105%;
 }
 
 @media screen and (max-width: 768px) {
