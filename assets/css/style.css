@@ -702,6 +702,6 @@ back to top
 @media screen and (max-width: 768px) {
     .back-to-top {
         bottom: 16px;
-        right: 8px;
+        right: 16px;
     }
 }
