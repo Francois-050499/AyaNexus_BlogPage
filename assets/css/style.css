@@ -690,13 +690,14 @@ back to top
     transform: rotate(-45deg);
 }
 
-.back-to-top:hover {
-    transform: scale(1.1);
-}
-
 .back-to-top.active {
     pointer-events: auto;
     opacity: 1;
+}
+
+.back-to-top.active:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 768px) {
