@@ -98,7 +98,7 @@ section
 }
 
 .section-button {
-    margin-bottom: 40px 0 0;
+    margin: 20px 0px;
     text-align: center;
 }
 
@@ -109,11 +109,11 @@ section
 
     .section-headline {
         font-size: 30px;
-        margin: 0px 0px 20px 15px ;
+        margin: 0px 0px 20px 2.5px;
     }
 
     .section-button {
-        margin-bottom: 20px 0 0;
+        margin-bottom: 20px;
     }
 }
 
@@ -307,11 +307,11 @@ about
 
     .about-image {
         max-width: 100%;
-        margin-left: 52.5px;
+        margin-left: 47.5px;
     }
 
     .about-headline {
-        margin: 1.75em 0px 1.0em 0px;
+        margin: 1.75em 0px 1.0em -0.5em;
         font-size: 20px;
         text-align: center;
 
