@@ -56,7 +56,7 @@ header
 
 .header-logo > a {
     display: block;
-    }
+}
 
 /*.header-nav {}*/
 
@@ -145,14 +145,14 @@ button
 .select, .input, .radio, .textarea
 */
 
-.select{
+.select {
     border-radius: 5px;
     padding: 10px;
     border: 1.75px solid #faf0e6;
     min-width: 500px;
 }
 
-.input{
+.input {
     border-radius: 5px;
     padding: 10px;
     border: 1.75px solid #faf0e6;
@@ -188,7 +188,7 @@ section
     background-color:#faf0e6;
 }
 
-.section.section-sub-sub{
+.section.section-sub-sub {
     padding: 40px 15px;
     background-color:#da70d6
 }
@@ -266,17 +266,19 @@ card
     height: auto;
 }
 .card-info {
-    padding: 5px 10px;
+    padding: 15px 10px;
 }
 
 /*.card-time {}*/
 
 .card-headline {
     font-size: 20px;
-    margin: 0;
+    margin: 10px 0px 15px 0px;
 }
 .card-description {
     margin: 0;
+    font-size: 15.5px;
+    line-height: 2.5;   
 }
 
 /*
@@ -291,7 +293,7 @@ avator
 }
 .avator-name {
     font-weight: bold;
-    padding: 15px 0px;
+    padding: 5px 0px 15px 0px;
 }
 
 /*
