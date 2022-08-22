@@ -119,6 +119,7 @@ header
 /*
 button
 */
+
 .button {
     display: inline-block;
     color: #fff;
@@ -178,7 +179,6 @@ button
     }
 }
 
-
 /*
 section
 */
@@ -199,8 +199,6 @@ section
     font-weight: bold;
     margin: 0 0 60px;
 }
-
-
 
 /*
 grid
@@ -296,12 +294,12 @@ avator
     padding: 15px 0px;
 }
 
-
 /*
 form
 */
 
 /*.form {}*/
+
 .form-table {
     margin: 0 auto;
 }
@@ -511,7 +509,6 @@ footer
     color: #faf0e6;
     text-decoration: underline;
 }
-
 
 /*
 name
