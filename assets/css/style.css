@@ -403,17 +403,20 @@ card
     height: auto;
 }
 .card-info {
-    padding: 5px 10px;
+    padding: 15px 10px;
 }
 
 /*.card-time {}*/
 
 .card-headline {
     font-size: 20px;
-    margin: 0;
+    margin: 10px 0px 15px 0px;
 }
+
 .card-description {
     margin: 0;
+    font-size: 15.5px;
+    line-height: 2.5;
 }
 
 /*
@@ -426,9 +429,10 @@ avator
     align-items: center;
     justify-content: start;
 }
+
 .avator-name {
     font-weight: bold;
-    padding: 15px 0px;
+    padding: 5px 0px 15px 0px;
 }
 
 
