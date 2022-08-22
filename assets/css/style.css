@@ -294,7 +294,7 @@ about
 }
 
 .about-color {
-    font-size: 15.5px;
+    font-size: 15.0px;
 }
 
 .about-color:hover {
@@ -355,6 +355,7 @@ feature
 
 .feature-description {
     margin: 0;
+    font-size: 15.5px;
     line-height: 2.5;
     text-align: left;
     
