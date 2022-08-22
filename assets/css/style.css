@@ -316,6 +316,12 @@ about
         text-align: center;
 
     }
+    
+    .about-description {
+        font-size: 16.5px;
+        line-height: 3;
+        margin-left: -7.5px;
+    }
 
     .about-color {
         color: #da70d6;
