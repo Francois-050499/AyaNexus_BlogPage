@@ -276,24 +276,26 @@ about
 }
 
 /*.about-image {
-    border-radius: 10%;
+    margin-bottom: 1.5px;
 }*/
 
 .about-caption {
     padding-left: 15px;
 }
 .about-headline {
-    margin: 0 0 15px;
-    font-size: 30px;
+    font-size: 25px;
+    margin: 0 0 2.5px 0px;
+    
 }
 
-/*.about-description {
-    font-size: 15px;
-}*/
+.about-description {
+    font-size: 16.5px;
+    line-height: 1.90;
+}
 
-/*.about-color {
-    
-}*/
+.about-color {
+    font-size: 16.5px;
+}
 
 .about-color:hover {
     color: #da70d6;
