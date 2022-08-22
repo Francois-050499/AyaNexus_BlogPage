@@ -4,8 +4,6 @@
 Base Style
 */ 
 
-
-
 body {
     font-family: 'UD デジタル 教科書体 NP-B', "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
     font-size: 15px;
@@ -473,14 +471,14 @@ button
 .select, .input, .radio, .textarea
 */
 
-.select{
+.select {
     border-radius: 5px;
     padding: 10px;
     border: 1.75px solid #faf0e6;
     min-width: 500px;
 }
 
-.input{
+.input {
     border-radius: 5px;
     padding: 10px;
     border: 1.75px solid #faf0e6;
@@ -512,6 +510,7 @@ form
 */
 
 /*.form {}*/
+
 .form-table {
     margin: 0 auto;
 }
