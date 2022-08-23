@@ -173,10 +173,10 @@ pages
     align-items: center;
     justify-content: center;
     background-color: #da70d6;
-    padding: 10px;
+    padding: 1.5em;
 }
 
-.pages-choice {
+/*.pages-choice {
     margin-top: 4px
 }
 
@@ -210,10 +210,26 @@ pages
     border-top: 2px solid #000;
     border-right: 2px solid #000;
     transform: rotate(45deg);
+}*/
+
+/*.pages-nav {}*/
+
+.pages-navlist {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.pages-navitem {
+    font-size: 20px;
+    margin: 0 100px;
+}
 
-
+.pages-navitem:hover {
+    scale: 1.175;
+    opacity: 0.7;
+}
 
 /*
 works
