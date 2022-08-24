@@ -141,6 +141,13 @@ button
     background: #87ceeb;
 }
 
+@media screen and (max-width: 768px) {
+
+    .button.button-submission {
+        margin-top: 22.5px;
+    }
+}
+
 /*
 .select, .input, .radio, .textarea
 */
