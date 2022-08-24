@@ -21,7 +21,6 @@ button {
     border: 0;
 }
 
-
 /*
 header
 */
@@ -83,7 +82,6 @@ header
 .header-navitem > a:hover {
     border-bottom: 2px solid #da70d6;
 }
-
 
 @media screen and (max-width: 768px) {
     .header {
@@ -464,7 +462,6 @@ pages
     text-decoration:underline;
 }
 
-
 @media screen and (max-width: 768px) {
 
     .works {
@@ -577,6 +574,10 @@ name
         line-height: 40px;
         text-align: center;
         margin-right: 15px;
+    }
+    
+    .footer-image {
+        margin: 25px 25px 0px 35px;
     }
 
     .footer-caption-sub {
