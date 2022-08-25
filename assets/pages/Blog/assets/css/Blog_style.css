@@ -598,6 +598,12 @@ name
         font-size: 16px;
         margin: 0px 0px 10px 14px;
     }
+    
+    .footer-description {
+        font-size: 16.5px;
+        margin-left: 14.5px;
+        line-height: 3.05;
+    }
 
     .footer-color {
         color: #faf0e6;
