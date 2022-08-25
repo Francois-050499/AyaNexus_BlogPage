@@ -606,6 +606,8 @@ name
     }
 
     .footer-color {
+        font-size: 16.5px;
+        margin: 20px 0px 0px 20px;
         color: #faf0e6;
         text-decoration: underline;
     }
