@@ -163,6 +163,7 @@ button
     border: 1.75px solid #faf0e6;
     min-width: 500px;
 }
+
 .radio {
     margin: 0 10px;
 }
@@ -252,6 +253,7 @@ card
 .card {
     padding: 0 10px;
 }
+
 .card-link {
     display: block;
     color: #000;
@@ -274,10 +276,12 @@ card
     padding: 5px 10px;
     font-size: 12px;
 }
+
 .card-image {
     width: 100%;
     height: auto;
 }
+
 .card-info {
     padding: 15px 10px;
 }
@@ -288,6 +292,7 @@ card
     font-size: 20px;
     margin: 10px 0px 15px 0px;
 }
+
 .card-description {
     margin: 0;
     font-size: 15.5px;
@@ -304,6 +309,7 @@ avator
     align-items: center;
     justify-content: start;
 }
+
 .avator-name {
     font-weight: bold;
     padding: 5px 0px 15px 0px;
@@ -442,7 +448,6 @@ pages
     padding: 20px;
     text-align: center;
 }
-
 
 .works > img p {
     display: flex;
@@ -587,6 +592,11 @@ name
     
     .footer-name {
         margin: 0px 0px 12.5px 19.5px;
+    }
+    
+    .footer-name-sub {
+        font-size: 16px;
+        margin: 0px 0px 10px 14px;
     }
 
     .footer-color {
