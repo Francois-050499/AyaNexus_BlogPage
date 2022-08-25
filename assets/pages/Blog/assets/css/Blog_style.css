@@ -611,6 +611,13 @@ name
         color: #faf0e6;
         text-decoration: underline;
     }
+    
+    .footer-description-sub {
+        font-size: 16.5px;
+        margin-left: 14.5px;
+        line-height: 3.5;
+        text-align: left;
+    }
 }
 
 /*
