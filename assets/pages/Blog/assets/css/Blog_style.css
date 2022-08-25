@@ -584,6 +584,10 @@ name
     .footer-caption-sub {
         margin-right: 30px;
     }
+    
+    .footer-name {
+        margin: 0px 0px 12.5px 19.5px;
+    }
 
     .footer-color {
         color: #faf0e6;
