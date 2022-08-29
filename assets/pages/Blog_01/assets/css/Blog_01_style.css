@@ -159,6 +159,14 @@ section
     .section-headline {
         font-size: 32.5px;
     }
+    
+    .section-font {
+        line-height: 3.5;
+    }
+
+    .section-font-sub {
+        line-height: 3.5;
+    }
 }
 
 /*
