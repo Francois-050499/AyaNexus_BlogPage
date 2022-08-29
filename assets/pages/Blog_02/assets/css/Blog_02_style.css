@@ -123,6 +123,11 @@ section
     background-color:#faf0e6;
 }
 
+.section-picture {
+    max-width: 60%;
+    height: 60%;
+}
+
 .section.section-sub-sub{
     padding: 40px 15px;
     background-color:#da70d6
