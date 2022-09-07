@@ -471,12 +471,17 @@ pages
 
     .works {
         /*margin: 20px 0;*/
-        padding: 10px;
+        padding: 18px 25px 10px 25px;
     }
 
     .works > img {
         width: 100px;
         padding: 5px;
+    }
+    
+    .works > p {
+        font-size: 15.5px;
+        line-height: 2.35;
     }
 
     .works-color {
