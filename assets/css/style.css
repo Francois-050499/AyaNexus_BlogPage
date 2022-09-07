@@ -668,6 +668,17 @@ form
         width: 100%;
         text-align: center;
     }
+    
+    .footer-maplogo {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+
+    .footer-mapadress {
+        font-size: 16.5px;
+        margin-top: 15px;
+        line-height: 1.85;
+    }
 
     .footer-color {
         color: #87ceeb;
