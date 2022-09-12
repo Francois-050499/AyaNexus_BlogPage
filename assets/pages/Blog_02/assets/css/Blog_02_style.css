@@ -41,7 +41,7 @@ header
     margin: 0;
 }
 
-.header-logosize {
+/*.header-logosize {
     width: 20%;
     height: 20%;
     border-radius: 5px;
@@ -51,7 +51,7 @@ header
 
 .header-logosize:hover {
     box-shadow: 0 0 0 #bbb;
-}
+}*/
 
 .header-logo > a {
     display: block;
@@ -97,7 +97,7 @@ header
         padding-right: 15px;
     }
 
-    .header-logosize {
+    /*.header-logosize {
         width: 20%;
         height: 20%;
         border-radius: 2.5px;
@@ -107,7 +107,7 @@ header
     
     .header-logosize:hover {
         box-shadow: 0 0 0 #bbb;
-    }
+    }*/
 
     .header-navitem > a {
         border-bottom: 2px solid #da70d6;
