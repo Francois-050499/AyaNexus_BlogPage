@@ -146,13 +146,14 @@ section
 }
 
 .section-font {
-    margin: 30px 0;
     font-size: 20px;
+    line-height: 3.5;
 }
 
 .section-font-sub {
-    margin: 240px 0 30px;
+    margin-top: 240px;
     font-size: 20px;
+    line-height: 3.5;
 }
 
 @media screen and (max-width: 768px) {
