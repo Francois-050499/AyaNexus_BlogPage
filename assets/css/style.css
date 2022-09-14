@@ -106,7 +106,8 @@ section
 
     .section-headline {
         font-size: 30px;
-        margin: -7.5px 0px 25px 2.5px;
+        text-align: center;
+        margin-bottom: 25px;
     }
 
     .section-button {
