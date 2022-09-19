@@ -280,6 +280,7 @@ about
 .about-caption {
     padding-left: 15px;
 }
+
 .about-headline {
     font-size: 25px;
     margin: 0 0 2.5px 0px;
@@ -321,14 +322,16 @@ about
     .about-description {
         font-size: 16.5px;
         line-height: 3;
-        margin-left: -7.5px;
+        /*margin-left: -5.5px;*/
+        text-align: left;
     }
 
     .about-color {
         font-size: 16.5px;
-        margin-left: -5.5px;
+        /*margin-left: -5.5px;*/
         color: #da70d6;
         text-decoration: underline;
+        text-align: center;
     }
 }
 
