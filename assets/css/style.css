@@ -252,10 +252,60 @@ hero
     height: 130%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 959px) {
+
+    .hero > strong {
+        font-size: 105px;
+        letter-spacing: 1.0px;
+        color:#faf0e6;
+        text-shadow: 5px 5px 1px #da70d6;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .hero > strong {
+        font-size: 90px;
+        letter-spacing: 1.0px;
+        color:#faf0e6;
+        text-shadow: 5px 5px 1px #da70d6;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 599px) {
+
+    .hero > strong {
+        font-size: 75px;
+        letter-spacing: 1.0px;
+        color:#faf0e6;
+        text-shadow: 5px 5px 1px #da70d6;
+    }
+}
+
+@media screen and (max-width: 479px) {
 
     .hero > strong {
         font-size: 60px;
+        letter-spacing: 1.0px;
+        color:#faf0e6;
+        text-shadow: 5px 5px 1px #da70d6;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+    .hero > strong {
+        font-size: 50px;
+        letter-spacing: 1.0px;
+        color:#faf0e6;
+        text-shadow: 5px 5px 1px #da70d6;
+    }
+}
+
+@media screen and (max-width: 319px) {
+
+    .hero > strong {
+        font-size: 40px;
         letter-spacing: 1.0px;
         color:#faf0e6;
         text-shadow: 5px 5px 1px #da70d6;
