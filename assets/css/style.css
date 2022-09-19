@@ -363,13 +363,13 @@ feature
     
 }
 
-@media screen and (max-width: 768px) {
-    .feature-headline {
-        font-weight: bold;
-        font-size: 17.5px;
-        margin: 0 0 20px;
-    }
-}
+/*@media screen and (max-width: 768px) {
+
+}*/
+
+/*@media screen and (max-width: px) {
+
+}*/
 
 /*
 card
