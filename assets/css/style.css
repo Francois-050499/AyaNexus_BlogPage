@@ -284,6 +284,7 @@ hero
 
     .hero > strong {
         font-size: 50px;
+        text-shadow: 7.5px 7.5px 1.5px #da70d6;
     }
 }
 
@@ -291,6 +292,7 @@ hero
 
     .hero > strong {
         font-size: 40px;
+        text-shadow: 6px 6px 1px #da70d6;
     }
 }
 
