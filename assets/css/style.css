@@ -770,9 +770,10 @@ form
     background-color: #faf0e6;
     /*color: #faf0e6;*/
 }
+
 .footer-map {
     margin: 0;
-    padding: 40px 15px;
+    padding: 20px 15px 40px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
