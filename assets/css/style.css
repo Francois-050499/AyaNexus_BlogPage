@@ -21,6 +21,7 @@ button {
     border: 0;
 }
 
+
 /*
 grid
 */
@@ -62,6 +63,19 @@ grid
     }
 }
 
+@media screen and (max-width: 480px) {
+    .grid {
+        display: block;
+    }
+    .grid-col-2 > .grid-item,
+    .grid-col-3 > .grid-item,
+    .grid-col-4 > .grid-item {
+        width: 100%;
+        margin: 20px 0;
+
+    }
+}
+
 /* 
 section 
 */
@@ -73,7 +87,7 @@ section
 
 .section.section-two {
     padding: 30px 15px;
-    background-color:#da70d6
+    background-color:#faf0e6
 }
 
 .section.section-three {
@@ -84,7 +98,7 @@ section
 .section.section-four {
     padding: 30px 15px;
     margin: 0;
-    background-color: #da70d6;
+    background-color:#da70d6
 }
 
 .section-headline {
@@ -100,6 +114,22 @@ section
 }
 
 @media screen and (max-width: 768px) {
+    .section {
+        padding: 20px 10px;
+    }
+
+    .section-headline {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .section-button {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
     .section {
         padding: 20px 10px;
     }
@@ -187,6 +217,36 @@ header
 
 
 @media screen and (max-width: 768px) {
+    .header {
+        font-size: 12px;
+    }
+
+    .header-logo {
+        margin-left: 0.5px;
+    }
+
+    .header-nav {
+        padding-right: 1.25px;
+    }
+
+    /*.header-logosize {
+        width: 20%;
+        height: 20%;
+        border-radius: 2.5px;
+        box-shadow: 1.5px 1.5px 0 #bbb;
+        transition: box-shadow 0.25s;
+    }*/
+    
+    /*.header-logosize:hover {
+        box-shadow: 0 0 0 #bbb;
+    }*/
+
+    .header-navitem > a {
+        border-bottom: 2px solid #da70d6;
+    }
+}
+
+@media screen and (max-width: 480px) {
     .header {
         font-size: 12px;
     }
@@ -314,7 +374,6 @@ about
 .about-caption {
     padding-left: 15px;
 }
-
 .about-headline {
     font-size: 25px;
     margin: 0 0 2.5px 0px;
@@ -352,7 +411,41 @@ about
         text-align: center;
 
     }
-    
+
+    .about-description {
+        font-size: 16.5px;
+        line-height: 3;
+        /*margin-left: -5.5px;*/
+        text-align: left;
+    }
+
+    .about-color {
+        font-size: 16.5px;
+        /*margin-left: -5.5px;*/
+        color: #da70d6;
+        text-decoration: underline;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about {
+        display: block;
+        text-align: center;
+    }
+
+    /*.about-image {
+        max-width: 100%;
+        margin-left: 45.5px;
+    }*/
+
+    .about-headline {
+        margin: 1.5em 0 0.75em 0;
+        font-size: 22.5px;
+        text-align: center;
+
+    }
+
     .about-description {
         font-size: 16.5px;
         line-height: 3;
@@ -401,7 +494,7 @@ feature
 
 }*/
 
-/*@media screen and (max-width: px) {
+/*@media screen and (max-width: 480px) {
 
 }*/
 
@@ -438,6 +531,7 @@ card
     width: 100%;
     height: auto;
 }
+
 .card-info {
     padding: 15px 10px;
 }
@@ -448,7 +542,6 @@ card
     font-size: 20px;
     margin: 10px 0px 15px 0px;
 }
-
 .card-description {
     margin: 0;
     font-size: 15.5px;
@@ -541,6 +634,15 @@ button
     }
 }
 
+@media screen and (max-width: 480px) {
+    .select,
+    .input,
+    .textarea {
+        min-width: auto;
+        width: 100%;
+    }
+}
+
 /*
 form
 */
@@ -580,6 +682,7 @@ form
         display: block;
     }
 }
+
 
 /*
 .works
@@ -623,7 +726,7 @@ form
         width: 100px;
         padding: 5px;
     }
-    
+
     .works > p {
         font-size: 15.5px;
         line-height: 2.35;
@@ -635,13 +738,37 @@ form
     }
 }
 
+@media screen and (max-width: 480px) {
+
+    .works {
+        /*margin: 20px 0;*/
+        padding: 18px 25px 10px 25px;
+    }
+
+    .works > img {
+        width: 100px;
+        padding: 5px;
+    }
+
+    .works > p {
+        font-size: 15.5px;
+        line-height: 2.35;
+    }
+
+    .works-color {
+        color: #87ceeb;
+        text-decoration:underline;
+    }
+}
+
+
 /*
 .footer
 */
 
 .footer {
-    background-color: #da70d6;
-    color: #faf0e6;
+    background-color: #faf0e6;
+    /*color: #faf0e6;*/
 }
 .footer-map {
     margin: 0;
@@ -683,8 +810,9 @@ form
 }
 
 .footer-line {
-    border-color: #faf0e6;
+    border-color: #87ceeb;
 }
+
 .footer-copy {
     display: block;
     text-align: center;
@@ -707,7 +835,42 @@ form
         width: 100%;
         text-align: center;
     }
-    
+
+    .footer-maplogo {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+
+    .footer-mapadress {
+        font-size: 15.5px;
+        margin-top: 15px;
+        line-height: 1.85;
+    }
+
+    .footer-color {
+        color: #87ceeb;
+        text-decoration:underline;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .footer-map {
+        padding: 15px;
+        display: block;
+        
+    }
+
+    .footer-map > iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    .footer-mapinfo {
+        width: 100%;
+        text-align: center;
+    }
+
     .footer-maplogo {
         font-size: 30px;
         margin-top: 15px;
@@ -773,6 +936,13 @@ back to top
 }
 
 @media screen and (max-width: 768px) {
+    .back-to-top {
+        bottom: 16px;
+        right: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
     .back-to-top {
         bottom: 16px;
         right: 16px;
