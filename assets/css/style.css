@@ -203,8 +203,8 @@ header
 .header-navitem > a {
     display: block;
     padding: 10px;
-    color: #faf0e6;
-    -webkit-text-stroke: 0.25px #bbb;
+    color: #000;
+    /*-webkit-text-stroke: 0.5px #000;*/
     text-decoration: none;
     font-weight: bold;
     border-bottom: 2px solid transparent;
@@ -561,7 +561,7 @@ avator
 
 .avator-name {
     font-weight: bold;
-    padding: 5px 0px 15px 0px;
+    padding: 5px 0px 15px 12.5px;
 }
 
 /*
