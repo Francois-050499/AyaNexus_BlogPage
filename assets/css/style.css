@@ -21,6 +21,10 @@ button {
     border: 0;
 }
 
+mark {
+    background: linear-gradient(transparent 60%, #da70d6 0%);
+}
+
 
 /*
 grid
@@ -382,7 +386,16 @@ about
 
 .about-description {
     font-size: 16.5px;
-    line-height: 3.05;
+    line-height: 2.85;
+}
+
+.about-text {
+    font-weight: bold;
+    font-size: 20.5px;
+}
+
+.about-text-color {
+    color: #da70d6;
 }
 
 .about-color {
@@ -539,6 +552,7 @@ card
 /*.card-time {}*/
 
 .card-headline {
+    font-weight: bold;
     font-size: 20px;
     margin: 10px 0px 15px 0px;
 }
@@ -688,13 +702,25 @@ form
 .works
 */
 
-.works {
+.works-additional {
     background-color: #faf0e6;
-    /*margin: 40px 0;*/
-    padding: 40px;
     text-align: center;
 }
 
+.works-additional > p {
+    padding: 25px 0 0 0;
+    line-height: 2.05;
+}
+
+.works {
+    background-color: #faf0e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*margin: 40px 0;*/
+    padding: 0 0 40px 0;
+    text-align: center;
+}
 
 .works > img p {
     display: flex;
@@ -702,11 +728,19 @@ form
 }
 
 .works > p {
-    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 17.5px;
+    letter-spacing: 1.5px;
+    text-decoration: underline;
+    color: #da70d6;
+}
+
+.works > p br {
+    display: none;
 }
 
 .works img:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 .works-color:hover {
@@ -717,7 +751,14 @@ form
 
 @media screen and (max-width: 768px) {
 
+    .works-additional > p {
+        padding: 0 25px;
+        /*line-height: 2.05;*/
+    }
+    
+
     .works {
+        display: block;
         /*margin: 20px 0;*/
         padding: 18px 25px 10px 25px;
     }
@@ -728,6 +769,7 @@ form
     }
 
     .works > p {
+        margin: 18.5px 0 0 0;
         font-size: 15.5px;
         line-height: 2.35;
     }
@@ -739,6 +781,11 @@ form
 }
 
 @media screen and (max-width: 480px) {
+
+    .works-additional > p {
+        padding: 0 25px;
+        /*line-height: 2.05;*/
+    }
 
     .works {
         /*margin: 20px 0;*/
