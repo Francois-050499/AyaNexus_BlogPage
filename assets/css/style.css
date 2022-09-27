@@ -400,10 +400,12 @@ about
 
 .about-color {
     font-size: 15.5px;
+    color: #da70d6;
+    text-decoration: underline;
 }
 
 .about-color:hover {
-    color: #da70d6;
+    color: #87ceeb;
     text-decoration: underline;
 }
 
@@ -739,14 +741,19 @@ form
     display: none;
 }
 
-.works img:hover {
-    transform: scale(1.3);
+.works p:hover {
+    text-decoration:underline;
+    letter-spacing: 3.0px;
 }
 
-.works-color:hover {
-    color: #87ceeb;
-    text-decoration:underline;
+.works img:hover {
+    transform: scale(1.2);
 }
+
+/*.works-color:hover {
+    text-decoration:underline;
+    letter-spacing: 3.0px;
+}*/
 
 
 @media screen and (max-width: 768px) {
