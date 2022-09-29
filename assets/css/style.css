@@ -21,9 +21,9 @@ button {
     border: 0;
 }
 
-mark {
+/*mark {
     background: linear-gradient(transparent 60%, #da70d6 0%);
-}
+}*/
 
 
 /*
@@ -392,6 +392,10 @@ about
 .about-text {
     font-weight: bold;
     font-size: 20.5px;
+}
+
+.about-text-sub {
+    font-weight: bold;
 }
 
 .about-text-color {
@@ -781,10 +785,10 @@ form
         line-height: 2.35;
     }
 
-    .works-color {
+    /*.works-color {
         color: #87ceeb;
         text-decoration:underline;
-    }
+    }*/
 }
 
 @media screen and (max-width: 480px) {
@@ -809,10 +813,10 @@ form
         line-height: 2.35;
     }
 
-    .works-color {
+    /*.works-color {
         color: #87ceeb;
         text-decoration:underline;
-    }
+    }*/
 }
 
 
