@@ -21,6 +21,7 @@ button {
     border: 0;
 }
 
+
 /*
 header
 */
@@ -83,6 +84,7 @@ header
     border-bottom: 2px solid #da70d6;
 }
 
+
 @media screen and (max-width: 768px) {
     .header {
         font-size: 12px;
@@ -137,6 +139,7 @@ button
 
 .button.button-submission {
     background: #87ceeb;
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 768px) {
@@ -153,17 +156,16 @@ button
 .select {
     border-radius: 5px;
     padding: 10px;
-    border: 1.75px solid #faf0e6;
+    border: 1.75px solid #000;
     min-width: 500px;
 }
 
 .input {
     border-radius: 5px;
     padding: 10px;
-    border: 1.75px solid #faf0e6;
+    border: 1.75px solid #000;
     min-width: 500px;
 }
-
 .radio {
     margin: 0 10px;
 }
@@ -171,7 +173,7 @@ button
 .textarea {
     border-radius: 5px;
     padding: 10px;
-    border: 1.75px solid #faf0e6;
+    border: 1.75px solid #000;
     min-width: 500px;
     min-height: 100px;
 }
@@ -196,7 +198,7 @@ section
 
 .section.section-sub-sub {
     padding: 40px 15px;
-    background-color:#da70d6
+    background-color:#faf0e6;
 }
 
 .section-headline {
@@ -253,7 +255,6 @@ card
 .card {
     padding: 0 10px;
 }
-
 .card-link {
     display: block;
     color: #000;
@@ -276,12 +277,10 @@ card
     padding: 5px 10px;
     font-size: 12px;
 }
-
 .card-image {
     width: 100%;
     height: auto;
 }
-
 .card-info {
     padding: 15px 10px;
 }
@@ -292,11 +291,10 @@ card
     font-size: 20px;
     margin: 10px 0px 15px 0px;
 }
-
 .card-description {
     margin: 0;
     font-size: 15.5px;
-    line-height: 2.5;   
+    line-height: 2.5;
 }
 
 /*
@@ -309,10 +307,9 @@ avator
     align-items: center;
     justify-content: start;
 }
-
 .avator-name {
     font-weight: bold;
-    padding: 5px 0px 15px 0px;
+    padding: 5px 0px 15px 12.5px;
 }
 
 /*
@@ -442,10 +439,23 @@ pages
 .works
 */
 
+.works-additional {
+    background-color: #faf0e6;
+    text-align: center;
+}
+
+.works-additional > p {
+    padding: 25px 0 0 0;
+    line-height: 2.05;
+}
+
 .works {
     background-color: #faf0e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /*margin: 40px 0;*/
-    padding: 20px;
+    padding: 0 0 40px 0;
     text-align: center;
 }
 
@@ -455,19 +465,69 @@ pages
 }
 
 .works > p {
-    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 17.5px;
+    letter-spacing: 1.5px;
+    text-decoration: underline;
+    color: #da70d6;
+}
+
+.works > p br {
+    display: none;
+}
+
+.works p:hover {
+    text-decoration:underline;
+    letter-spacing: 3.0px;
 }
 
 .works img:hover {
     transform: scale(1.2);
 }
 
-.works-color:hover {
-    color: #87ceeb;
+/*.works-color:hover {
     text-decoration:underline;
-}
+    letter-spacing: 3.0px;
+}*/
+
 
 @media screen and (max-width: 768px) {
+
+    .works-additional > p {
+        padding: 0 25px;
+        /*line-height: 2.05;*/
+    }
+    
+
+    .works {
+        display: block;
+        /*margin: 20px 0;*/
+        padding: 18px 25px 10px 25px;
+    }
+
+    .works > img {
+        width: 100px;
+        padding: 5px;
+    }
+
+    .works > p {
+        margin: 18.5px 0 0 0;
+        font-size: 15.5px;
+        line-height: 2.35;
+    }
+
+    /*.works-color {
+        color: #87ceeb;
+        text-decoration:underline;
+    }*/
+}
+
+@media screen and (max-width: 480px) {
+
+    .works-additional > p {
+        padding: 0 25px;
+        /*line-height: 2.05;*/
+    }
 
     .works {
         /*margin: 20px 0;*/
@@ -478,16 +538,16 @@ pages
         width: 100px;
         padding: 5px;
     }
-    
+
     .works > p {
         font-size: 15.5px;
         line-height: 2.35;
     }
 
-    .works-color {
+    /*.works-color {
         color: #87ceeb;
         text-decoration:underline;
-    }
+    }*/
 }
 
 /*
@@ -495,14 +555,14 @@ footer
 */
 
 .footer {
-    background-color: #da70d6;
+    background-color: #faf0e6;
 }
 
 .footer-headline {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
-    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .footer-about {
@@ -537,14 +597,14 @@ footer
 }*/
 
 .footer-line {
-    color: #faf0e6;
+    color: #000;
 }
 
 .footer-copy {
     display: block;
     text-align: center;
     padding: 10px;
-    color: #faf0e6;
+    color: #000;
 }
 
 .footer-text {
@@ -552,7 +612,7 @@ footer
 }
 
 .footer-color:hover {
-    color: #faf0e6;
+    color: #87ceeb;
     text-decoration: underline;
 }
 
@@ -586,7 +646,7 @@ name
         text-align: center;
         margin-right: 15px;
     }
-    
+
     .footer-image {
         margin: 35px 25px 0px 35px;
     }
@@ -594,16 +654,16 @@ name
     .footer-caption-sub {
         margin-right: 30px;
     }
-    
+
     .footer-name {
         margin: 0px 0px 12.5px 19.5px;
     }
-    
+
     .footer-name-sub {
         font-size: 17.5px;
         margin: 0px 0px 10px 14px;
     }
-    
+
     .footer-description {
         font-size: 16.5px;
         margin-left: 14.5px;
@@ -616,7 +676,7 @@ name
         color: #faf0e6;
         text-decoration: underline;
     }
-    
+
     .footer-description-sub {
         font-size: 16.5px;
         /*margin-left: 14.5px;*/
