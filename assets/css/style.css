@@ -714,7 +714,7 @@ form
 }
 
 .works-additional > p {
-    padding: 25px 0 0 0;
+    padding: 75px 0 15px 0;
     line-height: 2.05;
 }
 
@@ -728,13 +728,17 @@ form
     text-align: center;
 }
 
-.works > img p {
-    display: flex;
-    margin: 0 75px;
+.works > a > img {
+    width: 60%;
+    height: 60%;
 }
 
+/*.works > img p {
+    display: flex;
+    margin: 0 50px;
+}*/
+
 .works > p {
-    margin-left: 15px;
     font-size: 17.5px;
     letter-spacing: 1.5px;
     text-decoration: underline;
@@ -745,14 +749,14 @@ form
     display: none;
 }
 
-.works p:hover {
+.works > p:hover {
     text-decoration:underline;
     letter-spacing: 3.0px;
 }
 
-.works img:hover {
+/*.works img:hover {
     transform: scale(1.2);
-}
+}*/
 
 /*.works-color:hover {
     text-decoration:underline;
@@ -774,8 +778,13 @@ form
         padding: 18px 25px 10px 25px;
     }
 
+    .works > a > img {
+        width: 10.5%;
+        height: 10.5%;
+    }
+
     .works > img {
-        width: 100px;
+        /*width: 100px;*/
         padding: 5px;
     }
 
@@ -803,8 +812,13 @@ form
         padding: 18px 25px 10px 25px;
     }
 
+    .works > a > img {
+        width: 12.5%;
+        height: 12.5%;
+    }
+
     .works > img {
-        width: 100px;
+        /*width: 100px;*/
         padding: 5px;
     }
 
@@ -831,7 +845,7 @@ form
 
 .footer-map {
     margin: 0;
-    padding: 0px 15px 40px 0px;
+    padding: 25px 15px 40px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
