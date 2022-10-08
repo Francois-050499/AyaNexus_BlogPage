@@ -225,9 +225,9 @@ header
         font-size: 12px;
     }
 
-    .header-logo {
+    /*.header-logo {
         margin-left: 0.5px;
-    }
+    }*/
 
     .header-nav {
         padding-right: 1.25px;
