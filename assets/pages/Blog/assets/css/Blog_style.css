@@ -237,6 +237,7 @@ card
 .card {
     padding: 0 10px;
 }
+
 .card-link {
     display: block;
     color: #000;
@@ -259,10 +260,12 @@ card
     padding: 5px 10px;
     font-size: 12px;
 }
+
 .card-image {
     width: 100%;
     height: auto;
 }
+
 .card-info {
     padding: 15px 10px;
 }
@@ -270,9 +273,11 @@ card
 /*.card-time {}*/
 
 .card-headline {
+    font-weight: bold;
     font-size: 20px;
     margin: 10px 0px 15px 0px;
 }
+
 .card-description {
     margin: 0;
     font-size: 15.5px;
