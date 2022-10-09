@@ -21,6 +21,7 @@ button {
     border: 0;
 }
 
+
 /*
 header
 */
@@ -38,7 +39,7 @@ header
 }
 
 .header-logo {
-    margin: 0;
+    margin: 10px 0px;
 }
 
 /*.header-logosize {
@@ -47,9 +48,9 @@ header
     border-radius: 5px;
     box-shadow: 2.5px 2.5px 0 #bbb;
     transition: box-shadow 0.25s;
-}
+}*/
 
-.header-logosize:hover {
+/*.header-logosize:hover {
     box-shadow: 0 0 0 #bbb;
 }*/
 
@@ -83,13 +84,14 @@ header
     border-bottom: 2px solid #da70d6;
 }
 
+
 @media screen and (max-width: 768px) {
     .header {
         font-size: 12px;
         padding: 0;
     }
-    
-     .header-logo {
+
+    .header-logo {
         margin-left: 15px;
     }
 
@@ -128,7 +130,7 @@ section
     height: 60%;
 }
 
-.section.section-sub-sub{
+.section.section-sub-sub {
     padding: 40px 15px;
     background-color:#da70d6
 }
@@ -147,13 +149,13 @@ section
 
 .section-font {
     font-size: 20px;
-    line-height: 4.5;
+    line-height: 3.5;
 }
 
 .section-font-text {
     font-size: 20px;
     text-decoration: underline;
-    line-height: 4.5;
+    line-height: 3.5;
 }
 
 .section-font-text > a:hover {
@@ -164,7 +166,7 @@ section
 .section-font-sub {
     margin-top: 240px;
     font-size: 20px;
-    line-height: 4.5;
+    line-height: 3.5;
 }
 
 @media screen and (max-width: 768px) {
@@ -177,7 +179,7 @@ section
         max-width: 100%;
         height: auto;
     }
-    
+
     .section-font {
         line-height: 3.5;
     }
@@ -195,7 +197,7 @@ pages
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #da70d6;
+    background-color: #faf0e6;
     padding: 1.5em;
 }
 
@@ -264,56 +266,132 @@ pages
 }
 
 /*
-works
+.works
 */
 
-.works {
+.works-additional {
     background-color: #faf0e6;
-    /*margin: 40px 0;*/
-    padding: 20px;
     text-align: center;
 }
 
-.works > img p {
-    display: flex;
-    margin: 0 75px;
+.works-additional > p {
+    padding: 75px 0 15px 0;
+    line-height: 2.05;
 }
+
+.works {
+    background-color: #faf0e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*margin: 40px 0;*/
+    padding: 0 0 40px 0;
+    text-align: center;
+}
+
+.works > a > img {
+    width: 60%;
+    height: 60%;
+}
+
+/*.works > img p {
+    display: flex;
+    margin: 0 50px;
+}*/
 
 .works > p {
-    margin-top: 15px;
+    font-size: 17.5px;
+    letter-spacing: 1.5px;
+    text-decoration: underline;
+    color: #da70d6;
 }
 
-.works img:hover {
-    transform: scale(1.2);
+.works > p br {
+    display: none;
 }
 
-.works-color:hover {
-    color: #87ceeb;
+.works > p:hover {
     text-decoration:underline;
+    letter-spacing: 3.0px;
 }
+
+/*.works img:hover {
+    transform: scale(1.2);
+}*/
+
+/*.works-color:hover {
+    text-decoration:underline;
+    letter-spacing: 3.0px;
+}*/
 
 
 @media screen and (max-width: 768px) {
+
+    .works-additional > p {
+        padding: 0 25px;
+        /*line-height: 2.05;*/
+    }
+    
+
+    .works {
+        display: block;
+        /*margin: 20px 0;*/
+        padding: 18px 25px 10px 25px;
+    }
+
+    .works > a > img {
+        width: 10.5%;
+        height: 10.5%;
+    }
+
+    .works > img {
+        /*width: 100px;*/
+        padding: 5px;
+    }
+
+    .works > p {
+        margin: 18.5px 0 0 0;
+        font-size: 15.5px;
+        line-height: 2.35;
+    }
+
+    /*.works-color {
+        color: #87ceeb;
+        text-decoration:underline;
+    }*/
+}
+
+@media screen and (max-width: 480px) {
+
+    .works-additional > p {
+        padding: 0 25px;
+        /*line-height: 2.05;*/
+    }
 
     .works {
         /*margin: 20px 0;*/
         padding: 18px 25px 10px 25px;
     }
 
+    .works > a > img {
+        width: 12.5%;
+        height: 12.5%;
+    }
+
     .works > img {
-        width: 100px;
+        /*width: 100px;*/
         padding: 5px;
     }
-    
+
     .works > p {
         font-size: 15.5px;
         line-height: 2.35;
     }
 
-    .works-color {
+    /*.works-color {
         color: #87ceeb;
         text-decoration:underline;
-    }
+    }*/
 }
 
 /*
@@ -321,7 +399,7 @@ footer
 */
 
 .footer {
-    background-color: #da70d6;
+    background-color: #faf0e6;
 }
 
 .footer-headline {
@@ -342,7 +420,7 @@ footer
 }
 
 .footer-caption {
-    margin: 40px 0;
+    margin: 45px 0;
 }
 
 .footer-caption-sub {
@@ -363,14 +441,14 @@ footer
 }*/
 
 .footer-line {
-    color: #faf0e6;
+    color: #000;
 }
 
 .footer-copy {
     display: block;
     text-align: center;
     padding: 10px;
-    color: #faf0e6;
+    color: #000;
 }
 
 .footer-text {
@@ -378,9 +456,10 @@ footer
 }
 
 .footer-color:hover {
-    color: #faf0e6;
+    color: #da70d6;
     text-decoration: underline;
 }
+
 
 /*
 name
@@ -398,7 +477,7 @@ name
     margin-left: 35px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1316px) {
 
     .footer-headline {
        font-size: 30px;
@@ -410,15 +489,16 @@ name
         display: block;
         line-height: 40px;
         text-align: center;
-        margin-right: 15px;
+        /*margin-right: 15px;*/
     }
 
     .footer-image {
-        margin: 35px 25px 0px 35px;
+        /*margin: 35px 25px 0px 35px;*/
+        text-align: center;
     }
 
     .footer-caption-sub {
-        margin-right: 30px;
+        margin: 45px 0px;
     }
 
     .footer-name {
@@ -439,7 +519,60 @@ name
     .footer-color {
         font-size: 16.5px;
         margin: 20px 0px 0px 20px;
-        color: #faf0e6;
+        color: #000;
+        text-decoration: underline;
+    }
+
+    .footer-description-sub {
+        font-size: 16.5px;
+        /*margin-left: 14.5px;*/
+        line-height: 3.5;
+        /*text-align: left;*/
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .footer-headline {
+       font-size: 30px;
+       margin-left: 11.5px;
+    }
+
+    .footer-about {
+        margin: 0;
+        display: block;
+        line-height: 40px;
+        text-align: center;
+        /*margin-right: 15px;*/
+    }
+
+    /*.footer-image {
+        margin: 35px 25px 0px 35px;
+    }*/
+
+    .footer-caption-sub {
+        margin: 0px 30px 45px 30px;
+    }
+
+    .footer-name {
+        margin: 0px 0px 12.5px 19.5px;
+    }
+
+    .footer-name-sub {
+        font-size: 17.5px;
+        margin: 0px 0px 10px 14px;
+    }
+
+    .footer-description {
+        font-size: 16.5px;
+        /*margin-left: 14.5px;*/
+        line-height: 3.05;
+    }
+
+    .footer-color {
+        font-size: 16.5px;
+        margin: 20px 0px 0px 20px;
+        color: #000;
         text-decoration: underline;
     }
 
