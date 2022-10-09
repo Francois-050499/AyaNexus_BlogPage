@@ -108,7 +108,7 @@ section
 
 .section.section-sub-sub {
     padding: 40px 15px;
-    background-color:#faf0e6
+    background-color:#faf0e6;
 }
 
 .section-headline {
@@ -125,13 +125,13 @@ section
 
 .section-font {
     font-size: 20px;
-    line-height: 3.5;
+    line-height: 4.5;
 }
 
 .section-font-sub {
     margin-top: 240px;
     font-size: 20px;
-    line-height: 3.5;
+    line-height: 4.5;
 }
 
 @media screen and (max-width: 768px) {
