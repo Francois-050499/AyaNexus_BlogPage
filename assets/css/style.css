@@ -369,7 +369,7 @@ hero
   text-shadow: 10px 10px 2px #da70d6;
 }
 
-.hero > video {
+.hero > image {
   position: absolute;
   z-index: 1;
   margin: 0;
