@@ -659,6 +659,7 @@ card
   color: #000;
   text-decoration: none;
   position: relative;
+  overflow: hidden;
   transition: transform 0.75s;
 }
 
@@ -668,14 +669,23 @@ card
 
 .card-label {
   position: absolute;
-  left: 0;
-  top: 0;
+  right: -35px;
+  top: 20px;
+  width: 150px;
+  height: 30px;
   background-color: #87ceeb;
   color: #000;
   display: block;
-  padding: 5px 10px;
+  transform: rotate(45deg);
+  text-align: center;
+  line-height: 22.5px;  
+  padding: 3px 10px;
+  box-sizing: border-box;
+  border-top: 2px dashed #fff;
+  border-bottom: 2px dashed #fff;
   font-size: 12px;
 }
+
 .card-image {
   width: 100%;
   height: auto;
