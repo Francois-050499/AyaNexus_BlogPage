@@ -17,6 +17,37 @@ body {
   color: #000;
   margin: 0;
   padding: 0;
+
+  background-image: repeating-linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  background-size: 600% ,600%;
+  animation: allColor .5s linear infinite;
+
+  @keyframes allColor { 
+    0% {
+      background-position:0% 0%;
+    }
+    
+    25% {
+      background-position:50% 50%;
+    }
+    
+    50% {
+      background-position:100% 100%;
+    }
+    
+    75% {
+      background-position:0% 100%;
+    }
+    
+    100% {
+      background-position:0% 0%;
+    }  
+  }
+}
+
+.body-wrap {
+  max-width: 80%; 
+  margin: 0 auto;
 }
 
 label,
@@ -33,9 +64,9 @@ button {
 
 /*background-all-color*/
 
-.all-color {
+/* .all-color {
   background-image: repeating-linear-gradient(135deg, #fad0c4 0%, #ffd1ff 100%);
-}
+} */
 
 /*mark {
     background: linear-gradient(transparent 60%, #da70d6 0%);
