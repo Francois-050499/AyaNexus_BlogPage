@@ -18,32 +18,32 @@ body {
   margin: 0;
   padding: 0;
 
-  background-image: repeating-linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
   background-size: 600% ,600%;
-  animation: allColor .5s linear infinite;
-
-  @keyframes allColor { 
-    0% {
-      background-position:0% 0%;
-    }
-    
-    25% {
-      background-position:50% 50%;
-    }
-    
-    50% {
-      background-position:100% 100%;
-    }
-    
-    75% {
-      background-position:0% 100%;
-    }
-    
-    100% {
-      background-position:0% 0%;
-    }  
-  }
+  animation: allColor 10s linear infinite;  
 }
+
+@keyframes allColor {
+  0% {
+    background-position:0% 0%;
+  }
+  
+  25% {
+    background-position:50% 50%;
+  }
+  
+  50% {
+    background-position:100% 100%;
+  }
+  
+  75% {
+    background-position:0% 100%;
+  }
+  
+  100% {
+    background-position:0% 0%;
+  }  
+} 
 
 .body-wrap {
   max-width: 80%; 
@@ -156,8 +156,8 @@ section
 }
 
 .section.section-four {
-  padding: 25px 15px;
-  margin: 0;
+  padding: 25px 80px;
+  margin: 0 auto;
   /*background-color: #faf0e6;*/
 }
 
@@ -530,7 +530,19 @@ about
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1278px) {
+@media screen and (min-width: 1406px) and (max-width:1598px) {
+  .about-description {
+    line-height: 2.4;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width:1405px) {
+  .about-description {
+    line-height: 2.0;
+  }
+}
+
+@media screen and (max-width: 1280px) {
   .about {
     display: block;
     text-align: center;
