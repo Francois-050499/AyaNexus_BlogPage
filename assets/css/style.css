@@ -18,9 +18,9 @@ body {
   margin: 0;
   padding: 0;
 
-  background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+  background-image: linear-gradient(135deg, rgba(255,127,127,0.5) 0%, rgba(255,127,191,0.5) 25%, rgba(255,127,255,0.5) 50%, rgba(191,127,255,0.5) 75%,rgba(127,127,255,0.5) 100%);
   background-size: 600% ,600%;
-  animation: allColor 10s linear infinite;  
+  animation: allColor 10s linear infinite alternate;  
 }
 
 @keyframes allColor {
@@ -37,7 +37,7 @@ body {
   }
   
   75% {
-    background-position:0% 100%;
+    background-position:50% 50%;
   }
   
   100% {
@@ -476,9 +476,9 @@ about
   line-height: 40px;
 }
 
-/*.about-image {
-    margin-bottom: 1.5px;
-}*/
+/* .about-image {
+    margin: 30px 0px;
+} */
 
 .about-caption {
   padding-left: 15px;
@@ -536,9 +536,17 @@ about
   }
 }
 
-@media screen and (min-width: 1281px) and (max-width:1405px) {
+@media screen and (min-width: 1345px) and (max-width:1405px) {
   .about-description {
-    line-height: 2.0;
+    font-size: 15.5px;
+    line-height: 2.4;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width:1344px) {
+  .about-description {
+    font-size: 15.5px;
+    line-height: 2.15;
   }
 }
 
