@@ -17,8 +17,38 @@ body {
   color: #000;
   margin: 0;
   padding: 0;
+
+  background-image: linear-gradient(135deg, rgba(255,127,127,0.5) 0%, rgba(255,127,191,0.5) 25%, rgba(255,127,255,0.5) 50%, rgba(191,127,255,0.5) 75%,rgba(127,127,255,0.5) 100%);
+  background-size: 600% ,600%;
+  animation: allColor 10s linear infinite alternate;
 }
 
+@keyframes allColor {
+  0% {
+    background-position:0% 0%;
+  }
+  
+  25% {
+    background-position:50% 50%;
+  }
+  
+  50% {
+    background-position:100% 100%;
+  }
+  
+  75% {
+    background-position:50% 50%;
+  }
+  
+  100% {
+    background-position:0% 0%;
+  }  
+}
+
+.body-wrap {
+  max-width: 80%; 
+  margin: 0 auto;
+}
 
 label,
 input,
@@ -34,9 +64,9 @@ button {
 
 /*background-all-color*/
 
-.all-color {
+/* .all-color {
   background-image: repeating-linear-gradient(135deg, #fad0c4 0%, #ffd1ff 100%);
-}
+} */
 
 /*
 header
@@ -564,7 +594,7 @@ footer
   text-align: center;
   font-size: 40px;
   font-weight: bold;
-  padding-top: 40px;
+  padding: 40px 0px 70px;
 }
 
 .footer-about {
@@ -574,7 +604,7 @@ footer
 }
 
 .footer-image {
-  margin: 40px 25px 25px;
+  margin: 0px 45px 25px;
 }
 
 .footer-caption {
@@ -582,7 +612,7 @@ footer
 }
 
 .footer-caption-sub {
-  margin: 80px 0 0 30px;
+  margin: 0 auto;
 }
 
 .footer-name {
@@ -649,11 +679,12 @@ name
 
   .footer-image {
     /*margin: 35px 25px 0px 35px;*/
+    margin: 25px 0px;
     text-align: center;
   }
 
   .footer-caption-sub {
-    margin: 45px 0px;
+    margin: 25px 0px;
   }
 
   .footer-name {
@@ -673,7 +704,7 @@ name
 
   .footer-color {
     font-size: 16.5px;
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0px;
     color: #000;
     text-decoration: underline;
   }
@@ -704,9 +735,9 @@ name
         margin: 35px 25px 0px 35px;
     }*/
 
-  .footer-caption-sub {
+  /* .footer-caption-sub {
     margin: 0px 30px 45px 30px;
-  }
+  } */
 
   .footer-name {
     margin: 0px 0px 12.5px 0px;
@@ -725,7 +756,6 @@ name
 
   .footer-color {
     font-size: 16.5px;
-    margin: 20px 0px 0px 0px;
     color: #000;
     text-decoration: underline;
   }
